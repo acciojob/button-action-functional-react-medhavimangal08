@@ -11,7 +11,7 @@ function App() {
   return (
     <div id="main">
       {/* // Do not alter the main div */}
-      <p id="para">{para}</p>
+      {para && <p id="para">{para}</p>}
       <button id="click" onClick={buttonclickedfunc}>
         Show me the sentence
       </button>
